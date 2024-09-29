@@ -7,9 +7,13 @@ import Collection from "../components/Collection.astro";
 import { YouTube } from '@astro-community/astro-embed-youtube';
 
 const posts = await getCollection("posts");
+// const latestPosts = posts
+//     .toSorted((p1, p2) => +p2.data.pubDate - +p1.data.pubDate)
+//     .slice(0, latestPostCount);
+
 const latestPosts = posts
-    .toSorted((p1, p2) => +p2.data.pubDate - +p1.data.pubDate)
-    .slice(0, latestPostCount);
+  .toSorted((p1, p2) => new Date(p2.data.pubDate).getTime() - new Date(p1.data.pubDate).getTime())
+  .slice(0, latestPostCount);
 
 const favouritePosts = favouritePostSlugs.map(
     (slug) => posts.find((post) => post.slug === slug)).filter(Boolean);;
