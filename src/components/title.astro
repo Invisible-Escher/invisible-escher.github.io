@@ -1,0 +1,18 @@
+---
+// Layout.astro
+const { title } = Astro.props;
+---
+
+<div>
+    <h1 class="page-title">
+        {title === "Hello. How are you feeling today?"
+            ? (
+                <>
+                    Hello.<br />
+                    How are you feeling today?
+                </>
+            )
+            : title}
+    </h1>
+    <slot />
+</div>
