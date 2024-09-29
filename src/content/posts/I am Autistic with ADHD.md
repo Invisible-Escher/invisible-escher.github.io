@@ -1,6 +1,6 @@
 ---
 title: "I am Autistic with ADHD"
-description: "I always wanted a blog to publish my thoughts and rants, like yelling into the abyss, until it yells right back."
+description: "On Monday 21st August 2023, I received my official diagnosis. It was anticlimactic. I had spent 6-months coming to terms with my suspicions and within that period I can barely describe the sheer amount of weirdness I've experienced on a sensory level. I've had my sense of focus become detached from control. The contrast of life turned all the way up. The proximity of noises collapsing in on itself. I've discovered large chunks of episodic memory missing from my perception..."
 category: Writings
 pubDate: 2023-08-27
 ---
@@ -43,7 +43,7 @@ So now what? Well, in the 6-months leading up to the formal diagnosis I had expe
 
 [^13]: Sinclair, J. (2012). Don’t mourn for us. https://philosophy.ucsc.edu/SinclairDontMournForUs.pdf
 
-[^14]: Once in a Lifetime" from the album 'Remain in Light' (1980). https://www.youtube.com/watch?v=5IsSpAOD6K8
+[^14]: Talking Heads (1980). Once in a Lifetime from the album 'Remain in Light', https://www.youtube.com/watch?v=5IsSpAOD6K8
 
 [^15]: Crompton, C. J., Hallett, S., Ropar, D., Flynn, E., & Fletcher-Watson, S. (2020). ‘I never realised everybody felt as happy as I do when I am around autistic people’: A thematic analysis of autistic adults’ relationships with autistic and neurotypical friends and family. https://doi.org/10.1177/1362361320908976
 
@@ -54,4 +54,4 @@ I'm struck by the oxymoronic status of my diagnosis.[^2] This unusual stigma att
 
 This just in. I've just been informed. Breaking news. An update on the situation. A fascinating discovery. We have a diagnosis. Possession of a rare condition where most everyone misinterprets your thoughts, feelings and communications. I'm sorry, what? Excuse me? Was there a memo about this? I had no idea people could read minds. Is it backwards day? Am I understanding this correctly? Assumptions are being made. Widespread misinterpretations made by someone who is not me. Makes total sense. I understand now. And I'm the one with the condition you say? Absolutely, a perfectly logical conclusion.[^2] Well done. I applaud your inductive reasoning.[^2] Message received. Thoughts and prayers. My heart goes out to everyone afflicted. Just one last question, where do I send the flowers?[^22]
 
-[^22]: Talking Heads (1988). [Nothing But] Flowers. On Naked. https://www.youtube.com/watch?v=2twY8YQYDBE
+[^22]: Talking Heads (1988). [Nothing But] Flowers from the album Naked. https://www.youtube.com/watch?v=2twY8YQYDBE
