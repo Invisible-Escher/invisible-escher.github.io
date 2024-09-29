@@ -59,8 +59,8 @@ header {
     align-items: center;
     flex-wrap: wrap;
     margin: auto;
-    width: 1000px;
-    padding: 1rem;
+    width: 1300px;
+    padding: 2rem;
     max-width: calc(100% - 2rem);
 }
 
@@ -91,10 +91,11 @@ header > nav a:focus {
 
 main {
     margin: auto;
-    padding: 1rem;
-    width: 1000px;
+    padding: 2rem;
+    width: 1300px;
     max-width: calc(100% - 2rem);
     line-height: 1.6;
+    /* margin-right: 1.5rem;  */
 }
 
 .title {
@@ -112,7 +113,7 @@ main {
 .badge,
 .badge:visited {
     background-color: rgba(var(--category-dark-color), 0.8);
-    border-radius: 1rem;
+    border-radius: 0rem;
     color: rgb(var(--bg-dark-color));
     padding: 0 0.5rem;
     text-decoration: none;
