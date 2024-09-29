@@ -55,13 +55,22 @@ html {
 }
 
 header {
-    display: flex;
+    /* display: flex;
     align-items: center;
     flex-wrap: wrap;
     margin: auto;
     width: 1300px;
     padding: 2rem;
+    max-width: calc(100% - 2rem); */
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Space between title and nav */
+    margin: auto;
+    width: 1300px;
+    padding: 2rem;
     max-width: calc(100% - 2rem);
+
 }
 
 @media print {
@@ -79,8 +88,15 @@ header {
 }
 
 header > nav {
+    /* display: flex;
+    gap: 1rem;
+    justify-content: flex-end;  */
+
     display: flex;
     gap: 1rem;
+    justify-content: flex-end; 
+    flex-wrap: nowrap;
+
 }
 
 header > nav a,
