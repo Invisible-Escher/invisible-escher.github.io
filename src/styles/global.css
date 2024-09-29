@@ -118,7 +118,7 @@ header {
     font-family: var(--header-font);
     font-size: 48px;
     font-weight: 300;
-
+    color: rgba(var(--fg-light-color), 0.8);
     width: 1300px;
 }
 
@@ -146,7 +146,7 @@ main {
 }
 
 .title {
-    border-bottom: 0.5rem solid rgba(var(--category-dark-color), 0.6);
+    border-bottom: 0.5rem solid rgba(var(--category-dark-color), 0.4);
     margin-bottom: 2.5rem;
     padding-bottom: 0.75rem;
 }
@@ -283,7 +283,8 @@ h5 {
     margin-top: 1rem;
     margin-bottom: 1rem;
     scroll-margin-top: 2.25rem;
-    color: var(--fg-dark-color);
+    color: rgba(var(--fg-dark-color), 0.85);
+    
 }
 
 h6 {
@@ -298,7 +299,7 @@ h6 {
 :is(h1, h2, h3, h4, h5, h6) a {
     font-size: 80%;
     line-height: 100%;
-    opacity: 80%;
+    /* opacity: 80%; */
     margin-left: 0.5rem;
     /* text-decoration: none; */
     border-bottom: none;
@@ -419,7 +420,7 @@ a.data-footnote-backref {
 blockquote {
     margin: 1rem 0;
     padding: 1rem 1.5rem; /* Adjust padding for better spacing */
-    border-left: 0.5rem solid rgba(var(--category-dark-color), 0.6); /* Left border as the visual cue */
+    border-left: 0.5rem solid rgba(var(--category-dark-color), 0.4); /* Left border as the visual cue */
     position: relative; /* Keep for potential future styles */
 }
 
