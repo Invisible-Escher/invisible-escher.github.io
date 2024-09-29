@@ -32,7 +32,38 @@ function calculateSidenotes(
     }
 }
 
+function toggleFootnotes() {
+    const notes = document.querySelectorAll(".footnotes > ol > li");
+    const footnoteToggle = document.querySelector(".toggle-footnotes");
+
+    // Toggle visibility
+    // notes.forEach(note => {
+    //     note.style.display = note.style.display === 'none' ? '' : 'none';
+        
+    // });
+
+    // Toggle visibility of each footnote and its number
+    notes.forEach(note => {
+        // Toggle display style
+        if (note.style.display === 'none') {
+            note.style.display = '';
+            note.classList.remove('hidden'); // Show footnote
+        } else {
+            note.style.display = 'none';
+            note.classList.add('hidden'); // Hide footnote
+        }
+    });
+
+    // Optionally adjust the footnotes container's visibility
+    footnoteToggle.classList.toggle-footnotes("dark");
+
+}
+
+// Attach the toggle function to the button click
+document.getElementById("toggle-footnotes").addEventListener("click", toggleFootnotes);
+
 document.addEventListener("DOMContentLoaded", () => calculateSidenotes());
 window.addEventListener("resize", () => calculateSidenotes());
 window.addEventListener("beforeprint", () => calculateSidenotes(false));
 window.addEventListener("afterprint", () => calculateSidenotes());
+

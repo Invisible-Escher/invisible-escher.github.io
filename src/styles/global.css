@@ -364,7 +364,9 @@ a.data-footnote-backref {
     color: rgba(var(--category-dark-color), 0.6);
 } */
 
-
+.hidden {
+    display: none; /* This class hides elements */
+  }
 
 blockquote {
     margin: 1rem 0;
