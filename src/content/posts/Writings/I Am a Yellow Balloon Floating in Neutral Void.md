@@ -45,7 +45,7 @@ https://en.wikipedia.org/wiki/Alexithymia
 
 ##### _I am a cloud floating among the birds_
 
-My hands are shaking and yet I feel nothing. I'm ingesting too much information. I'm simulating too much complexity.[^5] I am assuming nuance in a way which the complexity of individual emotional states are completely indiscernible from any other.[^6] Its funny, or rather not at all. 
+My hands are shaking and yet I feel nothing. I'm ingesting too much information. I'm simulating too much complexity.[^5] I am assuming nuance in a way in which the complexity of individual emotional states are completely indiscernible from any other.[^6] Its funny, or rather not at all. 
 I've been told I lack empathy and compassion. I've been told there rules of validation. I've read that to comfort someone, I need affirm what others are feeling and normalise their experience. And yet that doesn't work for me.[^7] </br></br>
 
 [^5]: Lawson RP, Rees G, Friston KJ. An aberrant precision account of autism. https://doi.org/10.3389%2Ffnhum.2014.00302
@@ -58,8 +58,7 @@ I've been told I lack empathy and compassion. I've been told there rules of vali
 
 [^8]: Cola (2022). Gossamer from the album Deep in View. https://www.youtube.com/watch?v=gUMWWiB3-ZU
 
-
-When others attempt to posit my emotions, my experience, my feelings, it feels confronting. It feels insulting.[^9] As if others are making light of what an experience that encompasses depth to which words cannot be affixed. A comparative notion that everyone feels this way. Just regular human experience. Just feeling like an entire experiential existence being gas lit.[^11] </br></br>
+When others attempt to posit my emotions, my experience, my feelings, it feels confronting. It feels insulting.[^9] As if others are making light of an experience that encompasses depth to which words cannot be affixed. A comparative notion that everyone feels this way. Just regular human experience. Just feeling like an entire experiential existence being gas lit.[^11] </br></br>
 
 [^9]: Holt, A., Bounekhla, K., Welch, C., & Polatajko, H. (2022). “Unheard minds, again and again”: Autistic insider perspectives and theory of mind. https://doi.org/10.1080/09638288.2021.1949052
 
