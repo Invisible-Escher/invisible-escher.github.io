@@ -1,50 +1,126 @@
 ---
-interface Props {
-	title: string;
-}
+import "../styles/global.css";
+import "../styles/sidenote.css";
+import {calculateSidenotes} from "../styles/sidenote";
+import { format } from "date-fns/fp";
+import { blogAuthor, blogTitle, categories, type LayoutData } from "../types";
+import { SEO } from "astro-seo";
 
-const { title } = Astro.props;
+type Props = LayoutData;
+
+const {
+    title,
+    description,
+    pubDate,
+    category: categorySlug,
+    isCategoryPage,
+} = Astro.props;
+const renderedDate = pubDate ? format("yyyy-MM-dd", pubDate) : undefined;
+const category = categorySlug ? categories[categorySlug] : undefined;
 ---
 
 <!doctype html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="description" content="Astro description" />
-		<meta name="viewport" content="width=device-width" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="generator" content={Astro.generator} />
-		<title>{title}</title>
-	</head>
-	<body>
-		<slot />
-	</body>
+    <head>
+        <SEO
+            title=`${title} - ${blogTitle}`
+            description={description}
+            charset="UTF-8"
+            openGraph={{
+                basic: {
+                    type: "website",
+                    title: title,
+                    image: "",
+                },
+                article: {
+                    publishedTime: pubDate?.toISOString(),
+                    authors: [blogAuthor],
+                    tags: categorySlug ? [categorySlug] : undefined,
+                },
+            }}
+            twitter={{
+                title,
+                description,
+            }}
+        />
+        <meta charset="UTF-8" />
+        <meta name="description" content="Astro description" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+        <link
+            rel="alternate"
+            type="application/rss+xml"
+            title="RSS Feed"
+            href="/rss.xml"
+        />
+        <link rel="sitemap" href="/sitemap-index.xml" />
+        <meta name="generator" content={Astro.generator} />
+        <title>{title} - {blogTitle}</title>
+        <script is:inline defer src="https://umami.danielgrants.com/script.js" data-website-id="553a1c8d-3337-40f8-946b-26f96441b4cb"></script>
+    </head>
+    <body>
+        <a href="#main" class="skip-to-main">Skip to main content</a>
+        <header>
+            <a href="/" class="header">grant's blog</a>
+            <nav>
+                {
+                    Object.entries(categories).map(([name, category]) => (
+                        <a
+                            href={`/${name}`}
+                            style={{
+                                "--category-dark-color": category.color.dark,
+                                "--category-light-color": category.color.light,
+                            }}
+                        >
+                            {category.name}
+                        </a>
+                    ))
+                }
+                <a
+                    href="https://github.com/daniel7grant"
+                    class="github"
+                    style={{
+                        "--category-dark-color": "#ffffff",
+                        "--category-light-color": "#000000",
+                        "margin-left": "1rem",
+                        "font-weight": "700",
+                    }}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    github
+                </a>
+            </nav>
+        </header>
+        <main
+            id="main"
+            style={{
+                "--category-dark-color":
+                    category?.color.dark ?? "var(--fg-dark-color)",
+                "--category-light-color":
+                    category?.color.light ?? "var(--fg-light-color)",
+            }}
+        >
+            <div class="title">
+                <h1>{title}</h1>
+                <div>
+                    {renderedDate && `Published on ${renderedDate}`}
+                    {
+                        category && !isCategoryPage && (
+                            <a href={`/${categorySlug}`} class="badge">
+                                <small>{category.name}</small>
+                            </a>
+                        )
+                    }
+                </div>
+            </div>
+            <article>
+                <slot />
+            </article>
+        </main>
+
+        <script>
+            import "../styles/sidenote";
+        </script>
+    </body>
 </html>
-<style is:global>
-	:root {
-		--accent: 136, 58, 234;
-		--accent-light: 224, 204, 250;
-		--accent-dark: 49, 10, 101;
-		--accent-gradient: linear-gradient(
-			45deg,
-			rgb(var(--accent)),
-			rgb(var(--accent-light)) 30%,
-			white 60%
-		);
-	}
-	html {
-		font-family: system-ui, sans-serif;
-		background: #13151a;
-	}
-	code {
-		font-family:
-			Menlo,
-			Monaco,
-			Lucida Console,
-			Liberation Mono,
-			DejaVu Sans Mono,
-			Bitstream Vera Sans Mono,
-			Courier New,
-			monospace;
-	}
-</style>
