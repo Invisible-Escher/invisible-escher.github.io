@@ -31,12 +31,14 @@ export const categories: Record<Category, CategoryData> = {
         description:
             "Short-form writings, vignettes or poetry, however someone might describe these.",
         color: { dark: "244, 102, 35", light: "244, 102, 35" },
+        // color: { dark: "216, 0, 102", light: "0, 125, 149" },
     },
     Resources: {
         name: "Resources",
         description:
             "Information I've collected over time that may be useful to others.",
-        color: { dark: "29, 99, 237", light: "29, 99, 237" },
+        // color: { dark: "29, 99, 237", light: "29, 99, 237" },
+        color: { dark: "255, 173, 26", light: "29, 99, 237" },
     },
 };
 
