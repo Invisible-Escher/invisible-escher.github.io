@@ -6,7 +6,7 @@ import Collection from "../../components/Collection.astro";
 const posts = await getCollection("posts");
 ---
 
-<Layout title="All posts">
+<Layout title="All posts" >
     <!-- <p>Here is the list of all my posts.</p> -->
     <Collection posts={posts} />
     

@@ -29,20 +29,25 @@
     }
 }
 
-@font-face {
-    font-display: swap;
-    font-family: "Atkinson Hyperledgible";
-    font-style: normal;
-    font-weight: 450;
-    src: url("fonts/AtkinsonHyperlegible-Regular.ttf") format("ttf");
+img {
+    max-width: 100%; /* Images will not exceed their parent's width */
+    height: auto; /* Maintain aspect ratio */
 }
 
 @font-face {
     font-display: swap;
-    font-family: "Raleway";
+    font-family: "Extended Hyperlegible";
+    font-style: normal;
+    font-weight: 400;
+    src: url("fonts/Extended-Hyperlegible-Regular-104.woff2") format("woff2");
+}
+
+@font-face {
+    font-display: swap;
+    font-family: "Extended Hyperlegible";
     font-style: normal;
     font-weight: 700;
-    src: url("fonts/AtkinsonHyperlegible-Regular.ttf") format("ttf");
+    src: url("fonts/Extended-Hyperlegible-Regular-104.woff2") format("woff2");
 }
 
 @font-face {
@@ -60,9 +65,10 @@
     --bg-dark-color: 26, 26, 26;
     --fg-light-color: 51, 51, 51;
     --fg-dark-color: 224, 224, 224;
-    --main-font: "Atkinson Hyperledgible", system-ui, sans-serif;
+    --main-font: "Extended Hyperlegible", system-ui, sans-serif;
     --font-size: 18px;
     --header-font: "Raleway", system-ui, sans-serif;
+    --header-width: 100% - 2rem;
     --mono-font: Menlo, Monaco, Lucida Console, Liberation Mono,
         DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
 }
@@ -83,22 +89,20 @@ html {
 }
 
 header {
-    /* display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    margin: auto;
-    width: 1300px;
-    padding: 2rem;
-    max-width: calc(100% - 2rem); */
 
     display: flex;
     align-items: center;
     justify-content: space-between; /* Space between title and nav */
     margin: auto;
     width: 1300px;
-    padding: 2rem;
+    /* padding: 2rem; */
+    padding-top: 0.25rem;
+    padding-bottom: 4rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
     max-width: calc(100% - 2rem);
     /* background: #222831; */
+    /* width: 100%; */
 }
 
 @media print {
@@ -107,27 +111,21 @@ header {
     }
 }
 
-
 .header {
     text-decoration: none;
     font-family: var(--header-font);
     font-size: 48px;
     font-weight: 300;
-    margin-right: 2rem;
+
+    width: 1300px;
 }
 
 header > nav {
-    /* display: flex;
-    gap: 1rem;
-    justify-content: flex-end;  */
-
     display: flex;
     gap: 1rem;
     justify-content: flex-end; 
     flex-wrap: nowrap;
-    margin-right: 1rem;
-    /* font-weight: 500;
-    font-family: var(--header-font); */
+    margin: 1rem;
 }
 
 header > nav a,
@@ -141,7 +139,7 @@ main {
     padding: 2rem;
     width: 1300px;
     max-width: calc(100% - 2rem);
-    /* line-height: 1.6; */
+    line-height: 1.25;
     /* margin-right: 1.5rem;  */
 }
 
@@ -179,20 +177,27 @@ main {
     outline: 0.125rem solid rgba(var(--category-dark-color), 0.8);
     /* border-width: 1rem; */
     color: rgba(var(--category-dark-color), 0.8);
-    padding: 0 0.5rem;
+    padding-top: 0.1rem;
+    padding-bottom: 0.1rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
     text-decoration: none;
+    font-size: 0.80rem; 
 }
 
 .badge.footnoteToggle {
     border-radius: 0.1rem;
     outline: 0.125rem solid #999;
     color: #999;
-    padding: 0 0.5rem;
+    padding-top: 0.1rem;
+    padding-bottom: 0.1rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
     font-style: italic;
 }
 
 .badge.footnoteToggle:hover {
-    background-color: #999; /* Light background on hover */
+    background-color: #666; /* Light background on hover */
     color: rgb(var(--bg-dark-color));
     outline: 0.125rem solid #666; /* Darker outline on hover */
 }
@@ -200,7 +205,10 @@ main {
 .badge.footnoteToggle.dark {
     outline: 0.125rem solid #333;
     color: #333;
-    padding: 0 0.5rem;
+    padding-top: 0.1rem;
+    padding-bottom: 0.1rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
 }
 
 
