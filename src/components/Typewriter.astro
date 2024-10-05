@@ -1,7 +1,6 @@
 ---
 // Typewriter.astro
 
-const text = "How are you feeling today? ";
 ---
 
 <style>
@@ -9,9 +8,9 @@ const text = "How are you feeling today? ";
     display: inline-flex;
     align-items: center;
     justify-content: left;
-    /* color: rgb(var(--fg-dark-color)); */
+    color: rgb(var(--fg-dark-color));
     position: relative;
-    margin-top: 1.25rem; /* Space between lines */
+    margin-top: 1.25rem;
     font-size: 2.75rem;
 }
 
@@ -21,66 +20,34 @@ const text = "How are you feeling today? ";
 }
 
 .cursor {
-    animation: blink 0.5s infinite; /* Cursor blinking effect */
+    animation: blink 0.5s infinite; 
     font-size: 0.8em; 
     line-height: 1; 
-    margin-left: 0.4ch; /* Negative margin to overlap */
+    margin-left: 0.4ch;
 }
-
-/* @media (max-width: 600px) {
-    .typewriter {
-    display: inline-flex;
-    flex-wrap: wrap; 
-    font-size: 1em;
-    width: 100%; 
-    position: relative;
-    align-items: baseline;
-    
-}
-.cursor {
-    animation: blink 0.85s step-end infinite; 
-    font-size: 0.8em; 
-    line-height: 1; 
-    margin-left: 0.2ch;
-    white-space: nowrap;
-    display: inline-flex;
-    float: right; 
-    
-}
-} */
 
 @media (max-width: 600px) {
     .typewriter-container {
-        overflow: visible; /* Allow text to overflow */
-        white-space: normal; /* Allow text to wrap */
+        overflow: visible;
+        white-space: normal; 
     }
 
     .typewriter {
-        display: block; /* Use block display */
-        font-size: 1em; /* Smaller size for mobile */
-        width: 100%; /* Ensure it takes full width */
-        position: relative; /* For absolute positioning of cursor */
-        align-items: baseline; /* Align text and cursor properly */
+        display: block; 
+        font-size: 1em; 
+        width: 100%; 
+        position: relative;
+        align-items: baseline;
     }
 
     .cursor {
-        animation: blink 0.5s infinite; /* Cursor blinking effect */
+        animation: blink 0.5s infinite; 
         font-size: 0.8em; 
         line-height: 1; 
-        margin-left: -0.2ch; /* Small margin */
-        display: inline; /* Keep cursor inline */
+        margin-left: -0.2ch; 
+        display: inline; 
     }
 }
-
-
-/* @keyframes blink {
-    0%, 100% {
-        opacity: 0; 
-    }
-    50% {
-        opacity: 1; 
-    }
-} */
 
 @keyframes blink {
     0% {
@@ -105,15 +72,12 @@ const text = "How are you feeling today? ";
         opacity: 0; /* Fully invisible */
     }
 }
-
-
 </style>
 
 <div class="typewriter">
     <span class="text" id="typewriter-text" style="display: inline"></span>
-    <span class="cursor", id="cursor">█</span>
+    <span class="cursor", id="cursor" style = "display:none;">█</span>
 </div>
-
 
 <script>
 const textElement = document.getElementById('typewriter-text');
@@ -135,88 +99,16 @@ function type() {
     }
 }
 
-type();
+// Set a delay before starting the typing effect
+const initialDelay = 2000; 
+const textDelay  = 2500;
+
+    setTimeout(() => {
+        cursor.style.display = 'inline'; 
+    }, initialDelay);
+
+    setTimeout(() => {
+        type(); 
+    }, textDelay);
 
 </script>
-
-<!-- 
-<script>
-    console.log("Script is running"); // Check if the script is executed
-    
-    const text = "How are you feeling today?";
-    const textElement = document.getElementById('typewriter-text');
-    const cursorElement = document.getElementById('cursor'); // Get cursor element
-    let index = 0;
-    
-    function getRandomDelay() {
-        return Math.random() * (200 - 100) + 100; // Random delay between 100ms and 200ms
-    }
-    
-    function type() {
-        if (index < text.length) {
-            console.log(`Adding: "${text[index]}"`); 
-            textElement.textContent += text[index];
-            index++;
-    
-            const textWidth = textElement.getBoundingClientRect().width; 
-            cursorElement.style.left = `${textWidth + 5}px`; 
-    
-            setTimeout(type, getRandomDelay()); 
-        } else {
-            console.log("Typing complete!"); 
-            cursorElement.style.animation = 'none'; 
-            cursorElement.style.opacity = '0'; // Optionally hide the cursor
-        }
-    }
-    
-    // Ensure the script runs after the DOM is loaded
-    document.addEventListener("DOMContentLoaded", function() {
-        type(); // Start the typing effect
-    });
-    
-
-    </script> -->
-
-
-
-<!-- <script>
-    document.addEventListener("DOMContentLoaded", function() {
-        console.log("Script is running"); // Check if the script is executed
-        const text = "How are you feeling today?";
-        const originalText = "How are you feeling today?";
-        const cursorSymbol = "█"; // Define the cursor symbol
-        const textWithCursor = `${text}`; // Text without the cursor initially
-        const textElement = document.getElementById('typewriter-text');
-        let index = 0;
-    
-        function getRandomDelay() {
-            return Math.random() * (200 - 100) + 100; // Random delay between 100ms and 200ms
-        }
-    
-        function type() {
-        if (index < originalText.length) {
-            console.log(`Adding: "${originalText[index]}"`); // Log the character being added
-            
-            // Append the cursor symbol
-            textElement.textContent += cursorSymbol;
-
-            // Add the current character after a brief delay
-            setTimeout(() => {
-                textElement.textContent = textElement.textContent.slice(0, -1) + originalText[index];
-                index++;
-                
-                setTimeout(type, getRandomDelay()); // Random typing speed
-            }, 200); // Adjust this delay to control cursor visibility before adding the letter
-        } else {
-            console.log("Typing complete!"); // Indicate completion
-
-            // Final cursor at the end
-            const cursorElement = document.createElement('span');
-            cursorElement.className = 'cursor';
-            cursorElement.textContent = cursorSymbol;
-            textElement.appendChild(cursorElement);
-        }
-    }
-        type(); // Start the typing effect
-    });
-    </script> -->
