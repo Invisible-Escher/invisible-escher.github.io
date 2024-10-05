@@ -13,6 +13,12 @@
     header > nav {
         flex-direction: column; /* Stack links vertically on mobile */
         align-items: center; /* Align links to the start */
+        font-size: 1.05rem;
+    }
+    header > nav a:hover{
+        text-decoration: none;
+        color: rgba(var(--category-dark-color), 0.9);
+        font-size: 1.05rem;
     }
     main {
         padding: 0 !important;
