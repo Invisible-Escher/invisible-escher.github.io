@@ -24,10 +24,10 @@ pubDate: 2024-10-13
 > _away from it all_  
 > _the scenic route_  
 > _the great ocean road[^6]_  
-> _apostles along the horizon[^7]_  
+> _apostles in my eyeline[^7]_  
 > <br>
 > 
-> _waves cascading along the shoreline[^8]<sup>,</sup>[^9]_  
+> _the waves cascading along the shoreline[^8]<sup>,</sup>[^9]_  
 > _everything everywhere all at once[^10]_  
 > _an untethered reality_  
 > _a parallel execution[^11]_   
