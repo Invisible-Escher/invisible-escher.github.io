@@ -1,6 +1,6 @@
 ---
 import { getCollection } from "astro:content";
-import Layout from "../layouts/Layout.astro";
+import Layout from "../layouts/Layout_wide.astro";
 import { categories, latestPostCount, favouritePostSlugs } from "../types";
 import Collection from "../components/Collection.astro";
 
@@ -21,11 +21,11 @@ const favouritePosts = favouritePostSlugs.map(
         <div class="introduction-description">
             <p><em>
                 Same as always,</p>
-                <p>Like an oddity floating out in cosmic space, caught on a dying planet amongst alien structures reflecting the self importance of its creators,</p>
-                <p>So too meaningless in what is barely a blip at the tail end of casual chain across an inconceivable timescale originating from an   explosion from a distant past,</p>
-                <p>while my past bleeds into my present as if yesterday was today, today is yesterday, all occurring simultaneously and not at all.</em></p>
+                <p>Like some oddity floating out in cosmic space, caught on a dying planet amongst alien structures reflecting the self importance of its creators</p>
+                <p>So too meaningless, in what is barely a blip at the tail end of casual chain along an inconceivable timescale originating from an   explosion from a distant past</p>
+                <p>While my past bleeds into my present, as if yesterday was today, today is yesterday, all occurring simultaneously and not at all.</em></p>
             </p>
-            <p>Hi. This is where I publish short writings typically in an autie-ethnographic style, vignettes and snippets of texts. Largely experimentations style and format that attempt to capture sensations of a way of being. </p>
+            <p>Hi. This is where I publish short writings typically in an autie-ethnographic style, vignettes and snippets of texts. Largely experimentations in style and format that attempt to capture sensations of a way of being. </p>
             <!-- <p>
                 I like to write about
                 <a
@@ -74,15 +74,13 @@ const favouritePosts = favouritePostSlugs.map(
         display: flex;
         align-items: center;
         margin-bottom: 1rem;
+        
     }
     .introduction-description {
         padding: 1rem;
         line-height: 1.3rem;
         margin: 0;
-        --main-width: 120%;
-        /* --aside-width: 50%; */
         position: relative;
-
     }
 
     @media (max-width: 500px) {
