@@ -87,7 +87,7 @@ let index = 0;
 console.log("Script is running");
 
 function getRandomDelay() {
-    return Math.random() * (5) + 302; 
+    return Math.random() * (5) + 402; 
 }
 
 function type() {
@@ -100,15 +100,29 @@ function type() {
 }
 
 // Set a delay before starting the typing effect
-const initialDelay = 2000; 
-const textDelay  = 4500;
+const initialDelay = 4500; 
+const textDelay  = 4000;
+
+    // setTimeout(() => {
+    //     cursor.style.display = 'inline'; 
+    // }, initialDelay);
 
     setTimeout(() => {
         cursor.style.display = 'inline'; 
+        setTimeout(() => {
+            cursor.style.animation = 'blink 0.5s'; 
+        setTimeout(() => {
+            cursor.style.display = 'none';
+        }, 500); 
+        }, 23000 + initialDelay); 
     }, initialDelay);
 
     setTimeout(() => {
         type(); 
-    }, textDelay);
+    }, initialDelay + textDelay);
+
+    // setTimeout(() => {
+    //     cursor.style.display = 'none'; 
+    // }, 21443);
 
 </script>
