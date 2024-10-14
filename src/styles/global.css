@@ -139,10 +139,20 @@ header > nav {
     margin: 1rem;
 }
 
-header > nav a,
-header > nav a:hover,
+header > nav a{
+    text-decoration: none;
+    color: rgba(var(--category-dark-color), 0.7);
+    font-size: 1.05rem;
+}
+header > nav a:hover{
+    text-decoration: none;
+    color: rgba(var(--category-dark-color), 0.9);
+    font-size: 1.05rem;
+}
 header > nav a:focus {
     text-decoration: none;
+    color: rgba(var(--category-dark-color), 0.9);
+    font-size: 1.05rem;
 }
 
 main {
