@@ -15,5 +15,5 @@ pubDate: 2020-04-15
 > ###### _Did i sow the seeds of discontent?_
 
 [^1]: My actual tinder profile during the COVID-19 lockdowns.   
-<br> In an unusual period of calm, alone with minimal obligations, as the world sat silent and screaming. Each day I sat with my coffee and watched. Each day I sat and watched this plane of dirt transforming. Expecting a uniform growth of green to arise, but its growth was as complicated as any other.  
+<br> In an unusual period of calm, alone with minimal obligations, as the world sat silent and screaming. Each day I sat with my coffee and watched. Each day I sat and watched this plane of dirt transforming. Expecting this uniform patch of green to terraform, but its growth was as complicated as any other.  
 <br> I did in fact buy mixed blend lawn seed.

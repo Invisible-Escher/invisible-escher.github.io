@@ -21,7 +21,7 @@ pubDate: 2023-09-01
 > _The operations have ceased._  
 > _The status is abnormal.[^5]_  
 > _Ctrl-alt-delete._  
-> _End task now.[^6]_ <br><br>
+> _End task now._ <br><br>
 >  
 > _Pass me the manual. The hardware is different._  
 > _The drivers divergent. The experience is universal.[^6]_  
