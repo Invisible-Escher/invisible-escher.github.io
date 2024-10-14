@@ -600,3 +600,34 @@ a.skip-to-main:focus {
     overflow-wrap: break-word;
     word-wrap: break-word;
 }
+
+
+.header {
+    position: relative; /* Keep it in the flow */
+    margin-right: auto; /* Pushes the nav to the right */
+}
+
+.glitch {
+    /* display: inline-block; */
+    transform-origin: 8rem center; /* Centering the transformation */
+    transition: transform 0.05s cubic-bezier(0.68, -0.55, 0.27, 1.55), opacity 0.1s ease-in-out;
+}
+
+.glitch:hover {
+    animation: glitch 0.05s forwards;
+}
+
+@keyframes glitch {
+    0% {
+        transform: scale(1) skew(0deg);
+    }
+    32% {
+        transform: scale(-1, 0.5) skew(-45deg);
+    }
+    87% {
+        transform: scale(-1, 1) skew(-45deg);
+    }
+    100% {
+        transform: scale(1) skew(0deg);
+    }
+}
