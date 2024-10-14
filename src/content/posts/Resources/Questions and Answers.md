@@ -29,14 +29,15 @@ Its largely based on [grant's blog](https://danielgrants.com/) who has graciousl
 
 #### Are you going to post anything useful?
 Maybe. Eventually. Don't hold me on it. I'm not trying to make this my job.[^3]
-For now I've reached the end of this cycle of fixation, I may return to post at some point. There is a backlog.
-But other things are drawing my attention now.[^4] I hope the sidenotes can provide some guidance as to what you seek.[^5]
+For now I've reached the end of this cycle of fixation, I may return to post at some point (particularly regarding resources). I have ADHD, so of course I also have a massive backlog of other projects (and this was actually a side project shhh).[^3b] And for now other things are drawing my attention.[^4] I hope the sidenotes can provide some guidance as to what you seek.[^5]
 
 <br>
 
 Alright, good chat. Hope that sufficient.
 
 [^3]: https://en.wikipedia.org/wiki/Pathological_demand_avoidance
+
+[^3b]: https://www.youtube.com/watch?v=HkM5m2tqRBE
 
 [^4]: Murray, D. (2020). Monotropism: An Interest-Based Account of Autism. https://doi.org/10.1007/978-1-4614-6435-8_102269-2 — See also: https://monotropism.org/
 
