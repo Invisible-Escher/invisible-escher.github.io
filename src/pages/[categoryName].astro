@@ -1,0 +1,31 @@
+---
+import type { GetStaticPaths } from "astro";
+import { getCollection } from "astro:content";
+import Layout from "../layouts/Layout.astro";
+import { categories, type Category, type CategoryData } from "../types";
+import Collection from "../components/Collection.astro";
+
+type Props = {
+    category: CategoryData;
+};
+
+export const getStaticPaths: GetStaticPaths = async () => {
+    return Object.entries(categories).map(([categoryName, category]) => ({
+        params: { categoryName },
+        props: { category },
+    }));
+};
+
+const { categoryName } = Astro.params as { categoryName: Category };
+const { category } = Astro.props;
+
+const posts = await getCollection("posts");
+const filteredPosts = posts.filter((post) =>
+    post.data.category.includes(categoryName)
+);
+---
+
+<Layout title={category.name} category={categoryName} isCategoryPage>
+    <p>{category.description}</p>
+    <Collection posts={filteredPosts} />
+</Layout>
