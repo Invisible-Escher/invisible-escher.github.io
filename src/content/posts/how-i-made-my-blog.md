@@ -1,7 +1,7 @@
 ---
 title: "How I made my blog"
 description: "I always wanted a blog to publish my thoughts and rants, like yelling into the abyss, until it yells right back."
-category: webdev
+category: Writings
 pubDate: 2024-07-27
 ---
 

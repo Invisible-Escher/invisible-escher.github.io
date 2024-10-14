@@ -12,23 +12,26 @@ const latestPosts = posts
 const favouritePosts = favouritePostSlugs.map(
     (slug) => posts.find((post) => post.slug === slug)!
 );
+
 ---
 
-<Layout title="Welcome to my blog" isCategoryPage>
+<Layout title="Hello. How are you feeling today?" isCategoryPage>
     <section class="introduction">
         <img src="/olti.png" alt="" width="200" height="207" />
         <div class="introduction-description">
-            <p>Hi, my name is Daniel Grant!</p>
-            <p>
-                I've been a web developer and DevOps engineer since 2016. I'm
-                developing open-source projects mostly in TypeScript and Rust.
+            <p><em>
+                Same as always,</p>
+                <p>Like an oddity floating out in cosmic space, caught on a dying planet amongst alien structures reflecting the self importance of its creators,</p>
+                <p>So too meaningless in what is barely a blip at the tail end of casual chain across an inconceivable timescale originating from an   explosion from a distant past,</p>
+                <p>while my past bleeds into my present as if yesterday was today, today is yesterday, all occurring simultaneously and not at all.</em></p>
             </p>
-            <p>
+            <p>Hi. This is where I publish short writings typically in an autie-ethnographic style, vignettes and snippets of texts. Largely experimentations style and format that attempt to capture sensations of a way of being. </p>
+            <!-- <p>
                 I like to write about
                 <a
-                    href="/webdev"
+                    href="/Writings"
                     style={{
-                        "--category-dark-color": categories.webdev.color.dark,
+                        "--category-dark-color": categories.Writings.color.dark,
                         "--category-light-color": categories.webdev.color.light,
                     }}>web development</a
                 >,
@@ -46,22 +49,22 @@ const favouritePosts = favouritePostSlugs.map(
                         "--category-light-color": categories.devops.color.light,
                     }}>DevOps</a
                 >.
-            </p>
+            </p> -->
         </div>
     </section>
     <section>
-        <h2>My latest posts</h2>
-        <p>Here are a few of my newest posts.</p>
+        <h2>Latest posts</h2>
+        <!-- <p>Here are a few of my newest posts.</p> -->
         <Collection posts={latestPosts} />
-        <p>
+        <!-- <p>
             Subscribe to the
             <a href="/rss.xml">RSS feed</a> to always be up-to-date.
-        </p>
+        </p> -->
     </section>
     <section>
-        <h2>Favourites</h2>
+        <!-- <h2>Favourites</h2>
         <p>Don't know what to read? Here are some of my faves.</p>
-        <Collection posts={favouritePosts} />
+        <Collection posts={favouritePosts} /> -->
         <p>Still searching? Check out <a href="/posts">all posts</a>.</p>
     </section>
 </Layout>
@@ -74,6 +77,12 @@ const favouritePosts = favouritePostSlugs.map(
     }
     .introduction-description {
         padding: 1rem;
+        line-height: 1.3rem;
+        margin: 0;
+        --main-width: 120%;
+        /* --aside-width: 50%; */
+        position: relative;
+
     }
 
     @media (max-width: 500px) {
