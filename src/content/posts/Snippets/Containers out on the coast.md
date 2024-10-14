@@ -13,7 +13,7 @@ pubDate: 2024-10-13
 > <br>
 > 
 > _a hypervisor among virtual machines[^2]_  
-> _a lesson in composing dreams[^3]_  
+> _a lesson in composing dreams[^3]<sup>,</sup>[^3b]_  
 > _leave containers out on coast[^4]_  
 > <br>
 > 
@@ -28,7 +28,7 @@ pubDate: 2024-10-13
 > <br>
 > 
 > _waves cascading along the shoreline[^8]<sup>,</sup>[^9]_  
-> _everywhere everywhere all at once[^10]_  
+> _everything everywhere all at once[^10]_  
 > _an untethered reality_  
 > _a parallel execution[^11]_   
 > <br>
@@ -44,6 +44,7 @@ pubDate: 2024-10-13
 [^1]: The Books, 2010, Chain of links, from the album The Way Out. https://www.youtube.com/watch?v=Yzu-phcAefA
 [^2]: The hypervisor is the supervisor of the supervisors for virtual machines. https://en.wikipedia.org/wiki/Hypervisor
 [^3]: Deca, 2013, Gabreiel Ratchet, from the album The Ocean. https://www.youtube.com/watch?v=jR4nOsAtPcg
+[^3b]: Docker-compose is used for defining and running multiple containers. https://docs.docker.com/compose/
 [^4]: A Docker container is a standalone package that includes everything needed to run an application. https://www.docker.com/resources/what-container/
 [^5]: Sidewalks and Skeletons, 2013, The End, from the album THIS IS YOUR ESCAPE. https://www.youtube.com/watch?v=l1kmNhRvpIE
 [^6]: The Great Ocean Road is an 240km stretch of road along the south-eastern coast of Australia. https://en.wikipedia.org/wiki/Great_Ocean_Road
@@ -53,6 +54,6 @@ pubDate: 2024-10-13
 [^10]: Everything Everywhere All at Once, 2022. https://www.imdb.com/title/tt6710474/
 [^11]: In parallel computing processes are carried out simultaneously. https://en.wikipedia.org/wiki/Parallel_computing
 [^12]: Branching is the duplication code that allows for separate, parallel modifications. https://git-scm.com/docs/git-branch
-[^13]: [Invisible Escher, I Am a Yellow Balloon Floating in Neutral Void, 2024.](/posts/writings/i-am-a-yellow-balloon-floating-in-neutral-void)
+[^13]: Invisible Escher, I Am a Yellow Balloon Floating in Neutral Void, 2024. [🡥](/posts/writings/i-am-a-yellow-balloon-floating-in-neutral-void)
 [^14]: git init is a one-time command used during the initial setup of a new project repository. https://git-scm.com/docs/git-init
 [^15]: git merge combines branches with the main project trunk. https://git-scm.com/docs/git-merge

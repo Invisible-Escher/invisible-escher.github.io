@@ -107,13 +107,13 @@ const category = categorySlug ? categories[categorySlug] : undefined;
                     {renderedDate && `Published on ${renderedDate}`}  &ensp; 
                     {
                         category && !isCategoryPage && (
-                            <a href={`/${categorySlug}`} class="badge">
+                        <small><a href={`/${categorySlug}`} class="badge">
                                 {category.name}
-                            </a>
+                            </a></small>
                         )
                     } &ensp; 
                     {title !== "All posts" && (
-                    <span class="badge footnoteToggle">Sidenotes</span>
+                    <small><span class="badge footnoteToggle">Sidenotes</span></small>
                     )}
                 <!-- <span class="badge footnoteToggle"><small>Sidenotes</small></span>                 -->
             </div>
