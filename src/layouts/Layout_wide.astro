@@ -18,6 +18,7 @@ const {
 } = Astro.props;
 const renderedDate = pubDate ? format("yyyy-MM-dd", pubDate) : undefined;
 const category = categorySlug ? categories[categorySlug] : undefined;
+
 ---
 
 <!doctype html>
