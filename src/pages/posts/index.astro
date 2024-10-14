@@ -6,7 +6,6 @@ import Collection from "../../components/Collection.astro";
 const posts = await getCollection("posts");
 
 const filteredPosts = posts
-    // .filter(post => post.data.category.includes(categoryName)) // Filter by category
     .sort((a, b) => new Date(b.data.pubDate) - new Date(a.data.pubDate)); // Sort by pubDate descending
 
 ---

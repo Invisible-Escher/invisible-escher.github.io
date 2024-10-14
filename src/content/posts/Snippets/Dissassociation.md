@@ -1,6 +1,6 @@
 ---
-title: "D  I  S  A  S  S  O  C  I  A  T  I  O  N"
-description: "Don't ignore symptoms; Internal insights incapable ; Sights in seeming superposition; And ailments in alignment; Shouldering sludgy slowdowns; Sights of self, suspicious..."
+title: "D  i  s  a  s  s  o  c  i  a  t  i  o  n"
+description: "Don't ignore symptoms; Internal insights incapable ; Sights in seeming superposition; Anticipate ailments in alignment; Shoulder sludgy slowdowns; Sights of self, suspicious..."
 category: Snippets
 pubDate: 2024-09-28
 ---
@@ -14,7 +14,7 @@ pubDate: 2024-09-28
 > <br>
 > _Anticipate ailments in alignment[^4]_  
 > <br>
-> _Shouldering sludgy slowdowns[^5]_  
+> _Shoulder sludgy slowdowns[^5]_  
 > <br>
 > _Sights of self, suspicious[^6]_  
 > <br>
@@ -32,7 +32,7 @@ pubDate: 2024-09-28
 > <br>
 > _Obtuse oblique obsession[^13]_  
 > <br> <br>
-> _Never mind, never nocturnal, never better[^14]_
+> _Nevermind, never nocturnal, never better[^14]_
 
 [^1]: Disassociation sneaks up on you. Often you don't even know its happening as you slowly disconnect from yourself. 
 
@@ -60,4 +60,4 @@ pubDate: 2024-09-28
 
 [^13]: This website in itself, a week long hyperfixation.
 
-[^14]: Lack of sleep, my debts are paid.<br> Feeling great again! 
+[^14]: Lack of sleep, I pay my debts, I feel better again.<br>
