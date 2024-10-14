@@ -22,12 +22,13 @@ const { category } = Astro.props;
 const posts = await getCollection("posts");
 
 // const filteredPosts = posts.filter((post) =>
-    // post.data.category.includes(categoryName)
+//     post.data.category.includes(categoryName)
 // );
 
+
 const filteredPosts = posts
-    .filter(post => post.data.category.includes(categoryName))
-    .sort((a, b) => new Date(b.data.pubDate).getTime() - new Date(a.data.pubDate).getTime());
+    .filter(post => post.data.category.includes(categoryName)) // Filter by category
+    .sort((a, b) => new Date(b.data.pubDate) - new Date(a.data.pubDate)); // Sort by pubDate descending
 
 ---
 
