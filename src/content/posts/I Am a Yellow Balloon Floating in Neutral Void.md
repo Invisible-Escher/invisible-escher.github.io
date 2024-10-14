@@ -41,7 +41,7 @@ I've been describing my emotions to my therapist like this for last year an half
 [^3]: Alexithymia, also called emotional blindness, is a neuropsychological phenomenon characterized by significant challenges in recognizing, expressing, sourcing, and describing one's emotions.  
 https://en.wikipedia.org/wiki/Alexithymia
 
-[^4]: I receive my emotions like a tangled spaghetti of fairy lights. Like a thoroughly blended assortment of cause and affect. Like a manual sorting of past search histories. https://www.youtube.com/watch?v=kPRA0W1kECg&t=317s
+[^4]: I am receiving my emotions like a tangled spaghetti of fairy lights. Like a thoroughly blended assortment of cause and affect. Like a manual sorting of past search histories. https://www.youtube.com/watch?v=kPRA0W1kECg&t=317s
 
 ##### _I am a cloud floating among the birds_
 
@@ -56,24 +56,28 @@ I've been told I lack empathy and compassion. I've been told there rules of vali
 
 ##### _I feel abrasions like a seawall feels the rain_[^8]
 
-[^8]: Cola (2022). Gossamer from the album 'Remain in Light'.  
-https://www.youtube.com/watch?v=gUMWWiB3-ZU
+[^8]: Cola (2022). Gossamer from the album Deep in View. https://www.youtube.com/watch?v=gUMWWiB3-ZU
 
 
-When others attempt to posit my emotions, my experience, my feelings, it feels confronting. It feels insulting.[^9] As if others are making light of what an experience that encompasses depth to which words cannot be affixed[^10]. A comparative notion that everyone feels this way. Just regular human experience. Just feeling like an entire experiential existence being gas lit.[^11] </br></br>
+When others attempt to posit my emotions, my experience, my feelings, it feels confronting. It feels insulting.[^9] As if others are making light of what an experience that encompasses depth to which words cannot be affixed. A comparative notion that everyone feels this way. Just regular human experience. Just feeling like an entire experiential existence being gas lit.[^11] </br></br>
 
 [^9]: Holt, A., Bounekhla, K., Welch, C., & Polatajko, H. (2022). “Unheard minds, again and again”: Autistic insider perspectives and theory of mind. https://doi.org/10.1080/09638288.2021.1949052
-
-[^10]: Gernsbacher, M. A., & Yergeau, M. (2019). Empirical failures of the claim that autistic people lack a theory of mind. https://doi.org/10.1037/arc0000067
 
 [^11]:Yergeau, M. (2013). Clinically significant disturbance: On theorists who theorize theory of mind. Disability Studies Quarterly, 33. https://api.semanticscholar.org/CorpusID:142847773
 
 
-##### _To describe my life precisely would take longer than to live it_ [^5]
+##### _To describe my life precisely would take longer than to live it_ [^12]
 
-[^5]: Levé, É., & Stein, L. (2012). Autoportrait.
+[^12]: Levé, É., & Stein, L. (2012). Autoportrait.
 
-How do you empathise when you know life is experienced differently? What patience is given to those where empathising takes a journey of understanding that cannot be assumed. How do you respond to others when you know the assumptions are wrong? </br></br>
+How do you empathise when you know life is experienced differently?[^13] What patience is given to those where empathising takes a journey of understanding that cannot be assumed.[^14] How do you respond to others when you know the assumptions are wrong?[^15] </br></br>
+
+[^13]: Grandin, T. (1996). Thinking in pictures: And other reports from my life with autism.
+
+[^14]: Lea, C. (2012). The normalisation agenda and the psycho-emotional disablement of autistic people.
+
+[^15]: Parquet Courts. (2018). Almost Had To Start A Fight / In And Out Of Patience from the album Wide Awake! https://www.youtube.com/watch?v=l-Bka7yNyKA
+
 
 ##### _I am receiving my emotions in GIFs_
 
@@ -81,7 +85,7 @@ Everything is complicated. Emotions are messy. Emotions are intertwined with all
 
 ##### _I am undertaking a critical film study to understand my feelings_
 
-_I hope I shall arrive soon._ [^6]
+_I hope I shall arrive soon._ [^17]
 
-[^6]: Dick, P. K., Hurst, M., & Williams, P. (1987). I hope I shall arrive soon.
+[^17]: Dick, P. K. (1980). I Hope I Shall Arrive Soon.
 
