@@ -27,7 +27,7 @@ pubDate: 2024-10-13
 > _apostles in my eyeline[^7]_  
 > <br>
 > 
-> _the waves cascading along the shoreline[^8]<sup>,</sup>[^9]_  
+> _waves cascading along the shoreline[^8]<sup>,</sup>[^9]_  
 > _everything everywhere all at once[^10]_  
 > _an untethered reality_  
 > _a parallel execution[^11]_   
