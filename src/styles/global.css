@@ -206,7 +206,6 @@ body {
     padding: 0.1rem 0.5rem;
     text-decoration: none;
     font-size: 0.80rem; 
-    display: flex; /* Use flexbox */
     align-items: center; /* Vertically center items */
     justify-content: center; /* Horizontally center items */
 }
