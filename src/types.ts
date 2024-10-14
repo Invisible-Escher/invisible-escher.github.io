@@ -6,7 +6,7 @@ export const blogUrl = "https://danielgrants.com";
 export const blogAuthor = "Invisible Escher";
 
 export const latestPostCount = 3;
-export const favouritePostSlugs = ["i-am-autistic-with-adhd"];
+export const favouritePostSlugs = ["writings/i-am-autistic-with-adhd"];
 
 export const categoryNames = ["Writings", "Snippets", "Resources"] as const;
 
