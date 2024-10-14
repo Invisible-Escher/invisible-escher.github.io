@@ -1,0 +1,222 @@
+---
+// Typewriter.astro
+
+const text = "How are you feeling today? ";
+---
+
+<style>
+.typewriter {
+    display: inline-flex;
+    align-items: center;
+    justify-content: left;
+    /* color: rgb(var(--fg-dark-color)); */
+    position: relative;
+    margin-top: 1.25rem; /* Space between lines */
+    font-size: 2.75rem;
+}
+
+.text {
+    display: inline-block;
+    position: relative; 
+}
+
+.cursor {
+    animation: blink 0.5s infinite; /* Cursor blinking effect */
+    font-size: 0.8em; 
+    line-height: 1; 
+    margin-left: 0.4ch; /* Negative margin to overlap */
+}
+
+/* @media (max-width: 600px) {
+    .typewriter {
+    display: inline-flex;
+    flex-wrap: wrap; 
+    font-size: 1em;
+    width: 100%; 
+    position: relative;
+    align-items: baseline;
+    
+}
+.cursor {
+    animation: blink 0.85s step-end infinite; 
+    font-size: 0.8em; 
+    line-height: 1; 
+    margin-left: 0.2ch;
+    white-space: nowrap;
+    display: inline-flex;
+    float: right; 
+    
+}
+} */
+
+@media (max-width: 600px) {
+    .typewriter-container {
+        overflow: visible; /* Allow text to overflow */
+        white-space: normal; /* Allow text to wrap */
+    }
+
+    .typewriter {
+        display: block; /* Use block display */
+        font-size: 1em; /* Smaller size for mobile */
+        width: 100%; /* Ensure it takes full width */
+        position: relative; /* For absolute positioning of cursor */
+        align-items: baseline; /* Align text and cursor properly */
+    }
+
+    .cursor {
+        animation: blink 0.5s infinite; /* Cursor blinking effect */
+        font-size: 0.8em; 
+        line-height: 1; 
+        margin-left: -0.2ch; /* Small margin */
+        display: inline; /* Keep cursor inline */
+    }
+}
+
+
+/* @keyframes blink {
+    0%, 100% {
+        opacity: 0; 
+    }
+    50% {
+        opacity: 1; 
+    }
+} */
+
+@keyframes blink {
+    0% {
+        opacity: 0; /* Fully invisible */
+    }
+    10% {
+        opacity: 0.2; /* Slightly visible */
+    }
+    25% {
+        opacity: 0.5; /* Half visible */
+    }
+    50% {
+        opacity: 1; /* Fully visible */
+    }
+    75% {
+        opacity: 0.5; /* Half visible */
+    }
+    90% {
+        opacity: 0.3; /* Slightly visible */
+    }
+    100% {
+        opacity: 0; /* Fully invisible */
+    }
+}
+
+
+</style>
+
+<div class="typewriter">
+    <span class="text" id="typewriter-text" style="display: inline"></span>
+    <span class="cursor", id="cursor">█</span>
+</div>
+
+
+<script>
+const textElement = document.getElementById('typewriter-text');
+const cursor = document.querySelector('.cursor');
+const text = "How are you feeling today? ";
+let index = 0;
+console.log("Script is running");
+
+function getRandomDelay() {
+    return Math.random() * (5) + 302; 
+}
+
+function type() {
+    if (index < text.length) {
+        textElement.textContent += text[index];
+        index++;
+        cursor.style.marginLeft = "0.01"; 
+        setTimeout(type, getRandomDelay());
+    }
+}
+
+type();
+
+</script>
+
+<!-- 
+<script>
+    console.log("Script is running"); // Check if the script is executed
+    
+    const text = "How are you feeling today?";
+    const textElement = document.getElementById('typewriter-text');
+    const cursorElement = document.getElementById('cursor'); // Get cursor element
+    let index = 0;
+    
+    function getRandomDelay() {
+        return Math.random() * (200 - 100) + 100; // Random delay between 100ms and 200ms
+    }
+    
+    function type() {
+        if (index < text.length) {
+            console.log(`Adding: "${text[index]}"`); 
+            textElement.textContent += text[index];
+            index++;
+    
+            const textWidth = textElement.getBoundingClientRect().width; 
+            cursorElement.style.left = `${textWidth + 5}px`; 
+    
+            setTimeout(type, getRandomDelay()); 
+        } else {
+            console.log("Typing complete!"); 
+            cursorElement.style.animation = 'none'; 
+            cursorElement.style.opacity = '0'; // Optionally hide the cursor
+        }
+    }
+    
+    // Ensure the script runs after the DOM is loaded
+    document.addEventListener("DOMContentLoaded", function() {
+        type(); // Start the typing effect
+    });
+    
+
+    </script> -->
+
+
+
+<!-- <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        console.log("Script is running"); // Check if the script is executed
+        const text = "How are you feeling today?";
+        const originalText = "How are you feeling today?";
+        const cursorSymbol = "█"; // Define the cursor symbol
+        const textWithCursor = `${text}`; // Text without the cursor initially
+        const textElement = document.getElementById('typewriter-text');
+        let index = 0;
+    
+        function getRandomDelay() {
+            return Math.random() * (200 - 100) + 100; // Random delay between 100ms and 200ms
+        }
+    
+        function type() {
+        if (index < originalText.length) {
+            console.log(`Adding: "${originalText[index]}"`); // Log the character being added
+            
+            // Append the cursor symbol
+            textElement.textContent += cursorSymbol;
+
+            // Add the current character after a brief delay
+            setTimeout(() => {
+                textElement.textContent = textElement.textContent.slice(0, -1) + originalText[index];
+                index++;
+                
+                setTimeout(type, getRandomDelay()); // Random typing speed
+            }, 200); // Adjust this delay to control cursor visibility before adding the letter
+        } else {
+            console.log("Typing complete!"); // Indicate completion
+
+            // Final cursor at the end
+            const cursorElement = document.createElement('span');
+            cursorElement.className = 'cursor';
+            cursorElement.textContent = cursorSymbol;
+            textElement.appendChild(cursorElement);
+        }
+    }
+        type(); // Start the typing effect
+    });
+    </script> -->

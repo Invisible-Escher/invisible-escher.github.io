@@ -6,6 +6,7 @@ import { format } from "date-fns/fp";
 import { blogAuthor, blogTitle, categories, type LayoutData } from "../types";
 import { SEO } from "astro-seo";
 // import { title } from "../components/title.astro";
+import Typewriter from '../components/Typewriter.astro';
 
 type Props = LayoutData;
 
@@ -108,7 +109,8 @@ const category = categorySlug ? categories[categorySlug] : undefined;
                     {title === "Hello... How are you feeling today?" ? (
                         <>
                             Hello...<br>
-                            <h2><span class="subtitle">How are you feeling today?</span></h2>
+                            <span class="subtitle"><Typewriter /></span>
+                            
                         </>
                     ) : (
                         title
