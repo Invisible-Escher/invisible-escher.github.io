@@ -41,18 +41,18 @@ pubDate: 2024-10-13
 > _git commit[^15]_
 > 
 
-[^1]: The Books, 2010 - Chain of links, from the album The Way Out. https://www.youtube.com/watch?v=Yzu-phcAefA
+[^1]: The Books, 2010, Chain of links, from the album The Way Out. https://www.youtube.com/watch?v=Yzu-phcAefA
 [^2]: The hypervisor is the supervisor of the supervisors for virtual machines. https://en.wikipedia.org/wiki/Hypervisor
-[^3]: Deca, 2013 - Gabreiel Ratchet, from the album The Ocean. https://www.youtube.com/watch?v=jR4nOsAtPcg
+[^3]: Deca, 2013, Gabreiel Ratchet, from the album The Ocean. https://www.youtube.com/watch?v=jR4nOsAtPcg
 [^4]: A Docker container is a standalone package that includes everything needed to run an application. https://www.docker.com/resources/what-container/
-[^5]: Sidewalks and Skeletons - The End, https://www.youtube.com/watch?v=l1kmNhRvpIE
-[^6]: The Great Ocean Road is an Australian National Heritage-listed 240km stretch of road along the south-eastern coast of Australia. https://en.wikipedia.org/wiki/Great_Ocean_Road
+[^5]: Sidewalks and Skeletons, 2013, The End, from the album THIS IS YOUR ESCAPE. https://www.youtube.com/watch?v=l1kmNhRvpIE
+[^6]: The Great Ocean Road is an 240km stretch of road along the south-eastern coast of Australia. https://en.wikipedia.org/wiki/Great_Ocean_Road
 [^7]: The Twelve Apostles are a collection of limestone stacks off the shore, by the Great Ocean Road. https://en.wikipedia.org/wiki/The_Twelve_Apostles_(Victoria)
-[^8]: Wavefunction collapse is the transition from superposition to a definite state when a system interacts with a measuring device. https://en.wikipedia.org/wiki/Wave_function_collapse
-[^9]: Cascading Style Sheets styles HTML documents through cascading inheritance from multiple sources. https://en.wikipedia.org/wiki/CSS
+[^8]: Wavefunction collapse is the transition from superposition to a definite state. https://en.wikipedia.org/wiki/Wave_function_collapse
+[^9]: Cascading Style Sheets styles HTML documents using cascading inheritance. https://en.wikipedia.org/wiki/CSS
 [^10]: Everything Everywhere All at Once, 2022. https://www.imdb.com/title/tt6710474/
 [^11]: In parallel computing processes are carried out simultaneously. https://en.wikipedia.org/wiki/Parallel_computing
-[^12]: Branching in version control is the duplication code that allows for separate, parallel modifications. https://en.wikipedia.org/wiki/Branching_(version_control)
+[^12]: Branching is the duplication code that allows for separate, parallel modifications. https://git-scm.com/docs/git-branch
 [^13]: [Invisible Escher, I Am a Yellow Balloon Floating in Neutral Void, 2024.](/posts/writings/i-am-a-yellow-balloon-floating-in-neutral-void)
 [^14]: git init is a one-time command used during the initial setup of a new project repository. https://git-scm.com/docs/git-init
 [^15]: git merge combines branches with the main project trunk. https://git-scm.com/docs/git-merge

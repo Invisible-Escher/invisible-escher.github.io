@@ -24,6 +24,21 @@ function calculateSidenotes(
                 previousNoteBottom = nodeRect.bottom - mainRect.top;
             }
         }
+        // If notes overflow the main body, reflow to standard printing
+        const totalNotesHeight = Array.from(notes).reduce((acc, note) => {
+            return acc + note.offsetHeight;
+        }, 0);
+
+        if (totalNotesHeight > mainRect.height) {
+            // Reset styles to stack notes directly
+            for (const note of notes) {
+                note.style.position = "relative"; 
+                note.style.top = "0"; 
+                note.style.margin = "0";
+                note.style.padding = "0"; 
+            }
+        }
+
     } else {
         const notes = document.querySelectorAll(".footnotes > ol > li");
         for (const note of notes) {
@@ -47,11 +62,8 @@ function toggleFootnotes() {
 
 }
 
-// Attach the toggle function to the button click
-// document.getElementById("toggle-footnotes").addEventListener("click", toggleFootnotes);
 
 document.querySelector(".badge.footnoteToggle").addEventListener("click", toggleFootnotes);
-
 
 document.addEventListener("DOMContentLoaded", () => calculateSidenotes());
 window.addEventListener("resize", () => calculateSidenotes());
