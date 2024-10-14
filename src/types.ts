@@ -1,9 +1,10 @@
 import { z } from "astro:content";
 
 export const blogTitle = "Invisible Escher";
-export const blogDescription = "A blog about webdev, rust and devops";
+export const blogDescription = "Experiments in autie-ethnographic narratives.";
 export const blogUrl = "https://danielgrants.com";
 export const blogAuthor = "Invisible Escher";
+export const blogEmail  = "invisible-escher@proton.me";
 
 export const latestPostCount = 3;
 export const favouritePostSlugs = ["writings/i-am-autistic-with-adhd"];
