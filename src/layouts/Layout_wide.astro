@@ -5,6 +5,7 @@ import {calculateSidenotes} from "../styles/sidenote";
 import { format } from "date-fns/fp";
 import { blogAuthor, blogTitle, categories, type LayoutData } from "../types";
 import { SEO } from "astro-seo";
+// import { title } from "../components/title.astro";
 
 type Props = LayoutData;
 
@@ -102,7 +103,16 @@ const category = categorySlug ? categories[categorySlug] : undefined;
             }}
         >
             <div class="title">
-                <h1>{title}</h1>
+                <h1>
+                    {title === "Hello... How are you feeling today?" ? (
+                        <>
+                            Hello...<br>
+                            <h2><span class="subtitle">How are you feeling today?</span></h2>
+                        </>
+                    ) : (
+                        title
+                    )}
+                </h1>
                 <div>
                     {renderedDate && `Published on ${renderedDate}`}
                     {

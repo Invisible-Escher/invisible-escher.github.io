@@ -3,12 +3,38 @@
     scroll-behavior: smooth;
 }
 
+
+@media (max-width: 600px) {
+    header {
+        display: flex !important;
+        align-items: center !important;
+        padding: 0 !important;
+    }
+    header > nav {
+        flex-direction: column; /* Stack links vertically on mobile */
+        align-items: center; /* Align links to the start */
+    }
+    main {
+        padding: 0 !important;
+    }
+    h1 {
+        margin-top: 1rem;
+        font-size: 2.25rem !important;
+    }
+    .title-container{
+        margin-right: 1rem !important;
+    }
+    .introduction-description{
+        padding: 0 !important;
+    }
+}
+
 @font-face {
     font-display: swap;
-    font-family: "Raleway";
+    font-family: "Atkinson Hyperledgible";
     font-style: normal;
-    font-weight: 300;
-    src: url("fonts/raleway-v34-latin-300.woff2") format("woff2");
+    font-weight: 450;
+    src: url("fonts/AtkinsonHyperlegible-Regular.ttf") format("ttf");
 }
 
 @font-face {
@@ -16,7 +42,7 @@
     font-family: "Raleway";
     font-style: normal;
     font-weight: 700;
-    src: url("fonts/raleway-v34-latin-700.woff2") format("woff2");
+    src: url("fonts/AtkinsonHyperlegible-Regular.ttf") format("ttf");
 }
 
 @font-face {
@@ -29,10 +55,12 @@
 
 :root {
     --bg-light-color: 255, 255, 255;
-    --bg-dark-color: 19, 21, 26;
+    /* --bg-dark-color: 19, 21, 26; */
+    /* --bg-dark-color: 32, 32, 32; */
+    --bg-dark-color: 26, 26, 26;
     --fg-light-color: 51, 51, 51;
     --fg-dark-color: 224, 224, 224;
-    --main-font: "Poppins", system-ui, sans-serif;
+    --main-font: "Atkinson Hyperledgible", system-ui, sans-serif;
     --font-size: 18px;
     --header-font: "Raleway", system-ui, sans-serif;
     --mono-font: Menlo, Monaco, Lucida Console, Liberation Mono,
@@ -70,9 +98,7 @@ header {
     width: 1300px;
     padding: 2rem;
     max-width: calc(100% - 2rem);
-    background: #222831;
-
-
+    /* background: #222831; */
 }
 
 @media print {
@@ -80,6 +106,7 @@ header {
         display: none;
     }
 }
+
 
 .header {
     text-decoration: none;
@@ -98,7 +125,9 @@ header > nav {
     gap: 1rem;
     justify-content: flex-end; 
     flex-wrap: nowrap;
-
+    margin-right: 1rem;
+    /* font-weight: 500;
+    font-family: var(--header-font); */
 }
 
 header > nav a,
@@ -117,9 +146,9 @@ main {
 }
 
 .title {
-    border-bottom: 1px solid rgba(var(--category-dark-color), 1);
-    margin-bottom: 2rem;
-    padding-bottom: 1rem;
+    border-bottom: 0.5rem solid rgba(var(--category-dark-color), 0.6);
+    margin-bottom: 2.5rem;
+    padding-bottom: 0.75rem;
 }
 
 @media (prefers-color-scheme: light) {
@@ -128,7 +157,8 @@ main {
     }
 }
 
-.badge,
+
+/* .badge,
 .badge:visited {
     background-color: rgba(var(--category-dark-color), 0.8);
     border-radius: 0rem;
@@ -140,6 +170,23 @@ main {
 .badge:focus,
 .badge:hover {
     background-color: rgba(var(--category-dark-color), 1);
+} */
+
+
+.badge,
+.badge:visited {
+    border-radius: 0.1rem;
+    outline: 0.125rem solid rgba(var(--category-dark-color), 0.8);
+    /* border-width: 1rem; */
+    color: rgba(var(--category-dark-color), 0.8);
+    padding: 0 0.5rem;
+    text-decoration: none;
+}
+
+.badge:focus,
+.badge:hover {
+    background-color: rgba(var(--category-dark-color), 1);
+    color: rgb(var(--bg-dark-color));
 }
 
 @media (prefers-color-scheme: light) {
@@ -162,6 +209,21 @@ main {
     }
 }
 
+.title-container {
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: left; /* Aligns items vertically in the center */
+    justify-content: space-between; /* Distributes space between items */
+    margin-right: 30%;
+}
+
+.details {
+    display: flex;
+    align-items: right; /* Aligns the date and badge vertically */
+    margin-bottom: ;
+}
+
+
 h1,
 h2,
 h3,
@@ -169,17 +231,18 @@ h4,
 h5 {
     font-family: var(--header-font);
     font-weight: 700; 
-    line-height: 1;
-    margin-top: 2.25rem;
+    line-height: 1.2;
+    margin-top: 1rem;
     margin-bottom: 1rem;
     scroll-margin-top: 2.25rem;
+    color: #dcddde
 }
 
 h6 {
     font-family: var(--header-font);
     font-weight: 400; 
     line-height: 1;
-    margin-top: 2.25rem;
+    margin-top: 1rem;
     margin-bottom: 1rem;
     scroll-margin-top: 2.25rem;
 }
@@ -236,6 +299,13 @@ h6 {
 
 p {
     margin-top: 0;
+    color: #dcddde
+}
+
+.subtitle {
+    font-size: 2.75rem;
+    display: block; /* Make it a block element for line break */
+    margin-top: -0.75em; /* Space between lines */
 }
 
 a,
@@ -294,10 +364,12 @@ a.data-footnote-backref {
     color: rgba(var(--category-dark-color), 0.6);
 } */
 
+
+
 blockquote {
     margin: 1rem 0;
     padding: 1rem 1.5rem; /* Adjust padding for better spacing */
-    border-left: 4px solid rgba(var(--category-dark-color), 0.6); /* Left border as the visual cue */
+    border-left: 0.5rem solid rgba(var(--category-dark-color), 0.6); /* Left border as the visual cue */
     position: relative; /* Keep for potential future styles */
 }
 

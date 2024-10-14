@@ -101,10 +101,10 @@ const category = categorySlug ? categories[categorySlug] : undefined;
                     category?.color.light ?? "var(--fg-light-color)",
             }}
         >
-            <div class="title">
+            <div class="title-container">
                 <h1>{title}</h1>
-                <div>
-                    {renderedDate && `Published on ${renderedDate}`}
+                <div class = "details">
+                    {renderedDate && `Published on ${renderedDate}`}  &ensp; 
                     {
                         category && !isCategoryPage && (
                             <a href={`/${categorySlug}`} class="badge">

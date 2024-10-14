@@ -3,6 +3,7 @@ import { getCollection } from "astro:content";
 import Layout from "../layouts/Layout_wide.astro";
 import { categories, latestPostCount, favouritePostSlugs } from "../types";
 import Collection from "../components/Collection.astro";
+// import Layout from "../components/title.astro";
 
 const posts = await getCollection("posts");
 const latestPosts = posts
@@ -15,17 +16,17 @@ const favouritePosts = favouritePostSlugs.map(
 
 ---
 
-<Layout title="Hello. How are you feeling today?" isCategoryPage>
+<!-- <Layout title="Hello. How are you feeling today?" isCategoryPage> -->
+ <Layout title="Hello... How are you feeling today?" isCategoryPage>
     <section class="introduction">
         <img src="/olti.png" alt="" width="200" height="207" />
         <div class="introduction-description">
             <blockquote><p><em>
                 Same as always,</p>
-                <p>Like some oddity floating out in cosmic space, caught on a dying planet amongst alien structures reflecting the self importance of its creators</p>
-                <p>So too meaningless, in what is barely a blip at the tail end of casual chain along an inconceivable timescale originating from an   explosion from a distant past</p>
+                <p>Like some oddity floating out in cosmic space, caught on a dying planet amongst alien structures reflecting the self importance of its creators</p><br>
+                <p>So too meaningless, in what is barely a blip at the tail end of casual chain along an inconceivable timescale originating from an   explosion from a distant past</p><br>
                 <p>While my past bleeds into my present, as if yesterday was today, today is yesterday, all occurring simultaneously and not at all.</em></p>
             </p></blockquote>
-            <p>Hi. This is where I publish short writings typically in an autie-ethnographic style, vignettes and snippets of texts. Experimentations in style and format in an attempt to capture sensations of a way of being. </p>
             <!-- <p>
                 I like to write about
                 <a
@@ -51,6 +52,8 @@ const favouritePosts = favouritePostSlugs.map(
                 >.
             </p> -->
         </div>
+    </section>
+    <section>Hi. This is where I publish writings of vignettes and snippets of texts in an autie-ethnographic style. These are experimentations in style and format in an attempt to capture sensations of a way of being. From shifting narrative personalities, em dashes of tangential thinkings, references of echolalia to alternating forms of concurrent thoughts and marginalias that follow words to their originiating memories. 
     </section>
     <section>
         <h2>Latest posts</h2>
@@ -83,7 +86,7 @@ const favouritePosts = favouritePostSlugs.map(
         position: relative;
     }
 
-    @media (max-width: 500px) {
+    @media (max-width: 600px) {
         .introduction {
             flex-direction: column;
         }
