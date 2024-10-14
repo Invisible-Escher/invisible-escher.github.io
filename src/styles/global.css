@@ -70,6 +70,8 @@ header {
     width: 1300px;
     padding: 2rem;
     max-width: calc(100% - 2rem);
+    background: #222831;
+
 
 }
 
@@ -110,7 +112,7 @@ main {
     padding: 2rem;
     width: 1300px;
     max-width: calc(100% - 2rem);
-    line-height: 1.6;
+    /* line-height: 1.6; */
     /* margin-right: 1.5rem;  */
 }
 
@@ -164,10 +166,18 @@ h1,
 h2,
 h3,
 h4,
-h5,
+h5 {
+    font-family: var(--header-font);
+    font-weight: 700; 
+    line-height: 1;
+    margin-top: 2.25rem;
+    margin-bottom: 1rem;
+    scroll-margin-top: 2.25rem;
+}
+
 h6 {
     font-family: var(--header-font);
-    font-weight: 700;
+    font-weight: 400; 
     line-height: 1;
     margin-top: 2.25rem;
     margin-bottom: 1rem;
@@ -178,11 +188,12 @@ h6 {
     font-size: 80%;
     line-height: 100%;
     opacity: 30%;
-    text-decoration: none;
+    margin-left: 0.5rem;
+    /* text-decoration: none; */
     border-bottom: none;
 }
 
-@media print {
+/* @media print {
     :is(h1, h2, h3, h4, h5, h6) a {
         display: none;
     }
@@ -196,11 +207,11 @@ h6 {
 :is(h1, h2, h3, h4, h5, h6) a .icon::after {
     content: "#";
     padding: 8px;
-}
+} */
 
 h1 {
     margin-top: 1rem;
-    font-size: 4rem;
+    font-size: 3.25rem;
 }
 
 h2 {
@@ -220,7 +231,7 @@ h5 {
 }
 
 h6 {
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 p {
@@ -230,12 +241,12 @@ p {
 a,
 a:visited {
     text-decoration: underline;
-    color: rgba(var(--category-dark-color), 0.8);
+    color: rgba(var(--category-dark-color), 0.6);
 }
 
 a:focus,
 a:hover {
-    color: rgba(var(--category-dark-color), 1);
+    color: rgba(var(--category-dark-color), 0.6);
 }
 
 sup > a,
@@ -253,12 +264,12 @@ a.data-footnote-backref {
 @media (prefers-color-scheme: light) {
     a,
     a:visited {
-        color: rgba(var(--category-light-color), 0.8);
+        color: rgba(var(--category-light-color), 0.6);
     }
 
     a:focus,
     a:hover {
-        color: rgba(var(--category-light-color), 1);
+        color: rgba(var(--category-light-color), 0.6);
     }
 
     sup > a,
@@ -267,13 +278,13 @@ a.data-footnote-backref {
     }
 }
 
-blockquote {
+/* blockquote {
     position: relative;
     margin: 1rem 0;
     padding: 1rem 3rem;
-}
+} */
 
-blockquote::before {
+/* blockquote::before {
     content: "\201d";
     font-family: symbol;
     font-size: 6rem;
@@ -281,6 +292,17 @@ blockquote::before {
     top: -0.5rem;
     left: 0;
     color: rgba(var(--category-dark-color), 0.6);
+} */
+
+blockquote {
+    margin: 1rem 0;
+    padding: 1rem 1.5rem; /* Adjust padding for better spacing */
+    border-left: 4px solid rgba(var(--category-dark-color), 0.6); /* Left border as the visual cue */
+    position: relative; /* Keep for potential future styles */
+}
+
+blockquote p {
+    margin: 0; /* Reset margin for paragraphs within blockquote */
 }
 
 @media (prefers-color-scheme: light) {
