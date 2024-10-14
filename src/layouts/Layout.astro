@@ -108,11 +108,15 @@ const category = categorySlug ? categories[categorySlug] : undefined;
                     {
                         category && !isCategoryPage && (
                             <a href={`/${categorySlug}`} class="badge">
-                                <small>{category.name}</small>
+                                {category.name}
                             </a>
                         )
                     } &ensp; 
-                <span class="badge footnoteToggle"><small>Sidenotes</small></span>                </div>
+                    {title !== "All posts" && (
+                    <span class="badge footnoteToggle">Sidenotes</span>
+                    )}
+                <!-- <span class="badge footnoteToggle"><small>Sidenotes</small></span>                 -->
+            </div>
             </div>
             <article>
                 <slot />

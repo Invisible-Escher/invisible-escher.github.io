@@ -5,33 +5,34 @@ category: Snippets
 pubDate: 2024-09-01
 ---
 
-> I'm falling.[^0]  
-> I'm lacking compassion.  
-> I'm absent of empathy.  
-> I'm frozen. I've shutdown.  
-> I'm out on the tundra.[^1] I'm braving the wilderness.[^2]  
-> I can't imagine.  
-> I'm a spontaneous ordering of disordering from localised interactions.[^3]  
-> I'm empathising.  <br><br>
+> _I'm falling.[^0]_  
+> _I'm lacking compassion._  
+> _I'm absent of empathy._  
+> _I'm frozen. I've shutdown._  
+> _I'm out on the tundra.[^1] I'm braving the wilderness.[^2]_  
+> _I can't imagine._  <br><br>
+>
+> _I'm a spontaneous ordering of disordering from localised interactions.[^3]_  
+> _I'm empathising._  <br><br>
 >  
-> I'm mapping the emperor's realm. I'm out on the coastline.[^4]  
-> I'm calling for Zenos.  
-> I'm frozen. I'm not here.  
-> The operations have ceased.  
-> The status is abnormal.  
-> Ctrl-alt-delete.  
-> End task now. <br><br>
+> _I'm mapping the emperor's realm. I'm out on the coastline.[^4]_  
+> _I'm calling for Zenos._  
+> _I'm frozen. I'm not here._  
+> _The operations have ceased._  
+> _The status is abnormal._  
+> _Ctrl-alt-delete._  
+> _End task now._ <br><br>
 >  
-> Pass me the manual. The hardware is different.  
-> The drivers divergent. The experience is universal.  
-> The software is standard. The protocol proprietary.  
-> Device cannot be recognised. Recalibration has failed.  
-> GPS connection lost.  
-> Do not disturb.  <br><br>
+> _Pass me the manual. The hardware is different._  
+> _The drivers divergent. The experience is universal._  
+> _The software is standard. The protocol proprietary._  
+> _Device cannot be recognised. Recalibration has failed._  
+> _GPS connection lost._  
+> _Do not disturb._  <br><br>
 >  
-> I'm reading the atlas. I'm noticing distortions.  
-> I'm projecting Mercator.  
-> I'm back at the shoreline, here is a ruler, I'll stick with Euler.  
+> _I'm reading the atlas. I'm noticing distortions._  
+> _I'm projecting Mercator._  
+> _I'm back at the shoreline, here is a ruler, I'll stick with Euler._  
 
 [^0]: Falling sensations even though you are not, are common symptoms of anxiety disorders, including generalized anxiety disorder, social anxiety disorder, panic disorder, and others.
 
