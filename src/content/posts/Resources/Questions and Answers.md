@@ -33,7 +33,7 @@ For now I've reached the end of this cycle of fixation, I may return to post at 
 
 <br>
 
-Alright, good chat. Hope that sufficient.
+Alright, good chat. Hope that was sufficient.
 
 [^3]: https://en.wikipedia.org/wiki/Pathological_demand_avoidance
 
