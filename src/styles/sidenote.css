@@ -25,6 +25,7 @@
         top: 0;
         font-size: 85%;
         line-height: 1.05rem;
+        
     }
 
     .footnotes > ol > li {
@@ -45,6 +46,10 @@
     .footnotes > ol > li p {
         margin: 0;
         
+    }
+    .footnotes > ol > li > p {
+        overflow-wrap: break-word;
+        word-wrap: break-word;
     }
 
     .data-footnote-backref {

@@ -203,12 +203,12 @@ body {
     outline: 0.125rem solid rgba(var(--category-dark-color), 0.8);
     /* border-width: 1rem; */
     color: rgba(var(--category-dark-color), 0.8);
-    padding-top: 0.1rem;
-    padding-bottom: 0.1rem;
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
+    padding: 0.1rem 0.5rem;
     text-decoration: none;
     font-size: 0.80rem; 
+    display: flex; /* Use flexbox */
+    align-items: center; /* Vertically center items */
+    justify-content: center; /* Horizontally center items */
 }
 
 .badge.footnoteToggle {
@@ -581,3 +581,7 @@ a.skip-to-main:focus {
 }
 
 
+.footnotes > ol > li > p {
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}
