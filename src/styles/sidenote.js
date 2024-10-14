@@ -34,33 +34,24 @@ function calculateSidenotes(
 
 function toggleFootnotes() {
     const notes = document.querySelectorAll(".footnotes > ol > li");
-    const footnoteToggle = document.querySelector(".toggle-footnotes");
+    const footnoteToggle = document.querySelector(".footnoteToggle");
 
     // Toggle visibility
-    // notes.forEach(note => {
-    //     note.style.display = note.style.display === 'none' ? '' : 'none';
-        
-    // });
-
-    // Toggle visibility of each footnote and its number
     notes.forEach(note => {
-        // Toggle display style
-        if (note.style.display === 'none') {
-            note.style.display = '';
-            note.classList.remove('hidden'); // Show footnote
-        } else {
-            note.style.display = 'none';
-            note.classList.add('hidden'); // Hide footnote
-        }
+        note.style.display = note.style.display === 'none' ? '' : 'none';
+        
     });
 
     // Optionally adjust the footnotes container's visibility
-    footnoteToggle.classList.toggle-footnotes("dark");
+    footnoteToggle.classList.toggle("dark");
 
 }
 
 // Attach the toggle function to the button click
-document.getElementById("toggle-footnotes").addEventListener("click", toggleFootnotes);
+// document.getElementById("toggle-footnotes").addEventListener("click", toggleFootnotes);
+
+document.querySelector(".badge.footnoteToggle").addEventListener("click", toggleFootnotes);
+
 
 document.addEventListener("DOMContentLoaded", () => calculateSidenotes());
 window.addEventListener("resize", () => calculateSidenotes());

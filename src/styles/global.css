@@ -183,11 +183,33 @@ main {
     text-decoration: none;
 }
 
+.badge.footnoteToggle {
+    border-radius: 0.1rem;
+    outline: 0.125rem solid #999;
+    color: #999;
+    padding: 0 0.5rem;
+    font-style: italic;
+}
+
+.badge.footnoteToggle:hover {
+    background-color: #999; /* Light background on hover */
+    color: rgb(var(--bg-dark-color));
+    outline: 0.125rem solid #666; /* Darker outline on hover */
+}
+
+.badge.footnoteToggle.dark {
+    outline: 0.125rem solid #333;
+    color: #333;
+    padding: 0 0.5rem;
+}
+
+
 .badge:focus,
 .badge:hover {
     background-color: rgba(var(--category-dark-color), 1);
     color: rgb(var(--bg-dark-color));
 }
+
 
 @media (prefers-color-scheme: light) {
     .badge,
@@ -221,6 +243,7 @@ main {
     display: flex;
     align-items: right; /* Aligns the date and badge vertically */
     margin-bottom: ;
+    
 }
 
 
