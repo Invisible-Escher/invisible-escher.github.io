@@ -2,7 +2,7 @@ import { z } from "astro:content";
 
 export const blogTitle = "Invisible Escher";
 export const blogDescription = "Experiments in autie-ethnographic narratives.";
-export const blogUrl = "https://danielgrants.com";
+export const blogUrl = "https://invisible-escher.github.io";
 export const blogAuthor = "Invisible Escher";
 export const blogEmail  = "invisible-escher@proton.me";
 
