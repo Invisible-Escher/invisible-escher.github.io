@@ -7,6 +7,7 @@ import { blogAuthor, blogTitle, categories, type LayoutData } from "../types";
 import { SEO } from "astro-seo";
 // import { title } from "../components/title.astro";
 import Typewriter from '../components/Typewriter.astro';
+import { ViewTransitions } from "astro:transitions";
 
 type Props = LayoutData;
 
@@ -60,6 +61,7 @@ const category = categorySlug ? categories[categorySlug] : undefined;
         <meta name="generator" content={Astro.generator} />
         <title>{title} - {blogTitle}</title>
         <!-- <script is:inline defer src="https://umami.danielgrants.com/script.js" data-website-id="553a1c8d-3337-40f8-946b-26f96441b4cb"></script> -->
+        <ViewTransitions />
     </head>
     <body>
         <a href="#main" class="skip-to-main">Skip to main content</a>

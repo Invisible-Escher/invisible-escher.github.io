@@ -4,5 +4,6 @@
     ],
     "files.associations": {
         "*.yaml": "home-assistant"
-    }
+    },
+    "github.gitProtocol": "ssh"
 }
