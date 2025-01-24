@@ -18,26 +18,31 @@ pubDate: 2024-10-13
 > <br>
 > 
 > _sidewalks and skeletons[^5]_  
-> _footpaths and highways_  
+> _sideways and highways_  
 > <br>
 > 
 > _away from it all_  
-> _the scenic route_  
-> _the great ocean road[^6]_  
-> _apostles in my eyeline[^7]_  
+> _empty bylines[^6]_
+> _with apostles in my eyeline[^7]_  
+> _I take a scenic route_  
 > <br>
 > 
-> _waves cascading along the shoreline[^8]<sup>,</sup>[^9]_  
-> _everything everywhere all at once[^10]_  
+> _to waves cascading the shoreline[^8]<sup>,</sup>[^9]_  
+> _to everything everywhere all at once[^10]_  
+> <br>
+> 
 > _an untethered reality_  
-> _a parallel execution[^11]_   
+> _of parallel execution[^11]_   
+> _of branches awaiting the merge[^12]_  
 > <br>
-> 
-> _branches awaiting the merge[^12]_  
+>
+> _a disappearance from the herd_
 > _a cloud floating among the birds[^13]_  
-> _initiate another repo[^14]_  
+> _a daydream in a nightmare_
 > <br>
 > 
+> 
+> _initiate another repo[^14]_  
 > _git commit[^15]_
 > 
 
