@@ -5,6 +5,7 @@ category: Snippets
 pubDate: 2025-01-24
 ---
 <br>
+<br>
 
 _My body is a temple_   
 _My mind is a palace_ [^1]
