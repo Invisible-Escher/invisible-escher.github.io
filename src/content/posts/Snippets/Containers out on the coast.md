@@ -36,7 +36,7 @@ pubDate: 2024-10-13
 > _of branches awaiting the merge[^12]_  
 > <br>
 >
-> _a disappearance from the herd_
+> _a disappearance from the herd_  
 > _a cloud floating among the birds[^13]_  
 > _a daydream in a nightmare_
 > <br>

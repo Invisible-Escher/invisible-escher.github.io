@@ -7,31 +7,31 @@ pubDate: 2025-01-24
 <br>
 <br>
 
-_My body is a temple_   
-_My mind is a palace_ [^1]
+My body is a temple   
+My mind is a palace [^1]
  
-_Some suffocating existential rejection_ [^2]  
-_Bored and lonely seeking genocide_  
-_Punch up personals portraying policy_ [^4]  
+Some suffocating existential rejection [^2]  
+Bored and lonely seeking genocide  
+In punch up personals portraying policy [^4]  
 
-_Blame it on the vaccines_ [^5]  
-_Erase me from existence_  
-_Just some wandering curse forced to roam this earth_ [^6]  
+Blame it on the vaccines [^5]  
+Erase me from existence  
+Just some wandering curse forced to roam this earth [^6]  
 
-_As convenient faceless buzzwords rally indignant zombies_  
-_Barbarous braindead brainstorm backwards_  
-_Serving severed science for sicko sycophants_ [^8]  
+As convenient faceless buzzwords rally indignant zombies  
+Barbarous braindead, brainstorm backwards  
+Serving severed science for sicko sycophants [^8]  
 
-_Look no further than lobotomised leaders seeking lowly serfs_ [^9]  
-_To forlorn fragility for fast forward future fucked_ [^10]  
+Look no further than lobotomised leaders seeking lowly serfs [^9]  
+To forlorn fragility for fast forward future fucked [^10]  
 
-_Final call for fake facts foraging fascism_ [^11]  
-_Where vetted value vampires veto voters voices_ 
+Final call for fake facts foraging fascism [^11]  
+Where vetted value vampires veto voters voices 
 
-_Quickly now, let the bleach flow through your veins and hasten your resolve_ [^13]  
-_History retards, when righteous reckons, the Reich returns_ [^14]<sup>,</sup> [^15]  
+Quickly now, let the bleach flow through your veins and hasten your resolve [^13]  
+History retards, when the righteous reckons, the Reich returns [^14]<sup>,</sup> [^15]  
 
-_All aboard the elusive era of embarrassing extinction_ [^16]  
+All aboard the elusive era of embarrassing extinction [^16]  
 
 [^1]: Grandin, T. (1996). Thinking in pictures: And other reports from my life with autism.
 
