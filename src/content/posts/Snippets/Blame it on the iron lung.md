@@ -25,7 +25,7 @@ Serving severed science for sicko sycophants [^8]
 Look no further than lobotomised leaders seeking lowly serfs [^9]  
 To forlorn fragility for fast forward future fucked [^10]  
 
-Final call for fake facts foraging fascism [^11]  
+Final call for fake facts forging fascism [^11]  
 Where vetted value vampires veto voters voices 
 
 Quickly now, let the bleach flow through your veins and hasten your resolve [^13]  
