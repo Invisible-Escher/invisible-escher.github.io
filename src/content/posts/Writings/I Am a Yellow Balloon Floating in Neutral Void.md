@@ -36,7 +36,7 @@ https://www.rutgers.edu/news/getting-autism-right [^2]
 
 ###### 
 
-I've been describing my emotions to my therapist like this for last year an half. I feel unable to fully relate with others given the depth and complexity of how I feel emotions.[^3] Previously unable to comprehend a seeming tsunami of 'feelings'. Like invisible radiation. From a gentle waves to world ending catastrophes, they all carry debris in with the deluge.[^4] </br></br>
+I've been describing my emotions to my therapist like this for last year and a half. I feel unable to fully relate with others given the depth and complexity of how I feel emotions.[^3] Previously unable to comprehend a seeming tsunami of 'feelings'. Like invisible radiation. From gentle waves to world ending catastrophes, they all carry debris in with the deluge.[^4] </br></br>
 
 [^3]: Alexithymia, also called emotional blindness, is a neuropsychological phenomenon characterized by significant challenges in recognizing, expressing, sourcing, and describing one's emotions.  
 https://en.wikipedia.org/wiki/Alexithymia
